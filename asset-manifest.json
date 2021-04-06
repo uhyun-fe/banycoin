@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/banycoin_game/static/css/main.bfd7cc6d.chunk.css",
+    "main.js": "/banycoin_game/static/js/main.35368959.chunk.js",
+    "main.js.map": "/banycoin_game/static/js/main.35368959.chunk.js.map",
+    "runtime-main.js": "/banycoin_game/static/js/runtime-main.f9866a9e.js",
+    "runtime-main.js.map": "/banycoin_game/static/js/runtime-main.f9866a9e.js.map",
+    "static/js/2.ef9d81f6.chunk.js": "/banycoin_game/static/js/2.ef9d81f6.chunk.js",
+    "static/js/2.ef9d81f6.chunk.js.map": "/banycoin_game/static/js/2.ef9d81f6.chunk.js.map",
+    "index.html": "/banycoin_game/index.html",
+    "static/css/main.bfd7cc6d.chunk.css.map": "/banycoin_game/static/css/main.bfd7cc6d.chunk.css.map",
+    "static/js/2.ef9d81f6.chunk.js.LICENSE.txt": "/banycoin_game/static/js/2.ef9d81f6.chunk.js.LICENSE.txt",
+    "static/media/coin.eef01f71.png": "/banycoin_game/static/media/coin.eef01f71.png",
+    "static/media/dog1.8d49008b.jpg": "/banycoin_game/static/media/dog1.8d49008b.jpg",
+    "static/media/pickaxe.71a6ef87.png": "/banycoin_game/static/media/pickaxe.71a6ef87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9866a9e.js",
+    "static/js/2.ef9d81f6.chunk.js",
+    "static/css/main.bfd7cc6d.chunk.css",
+    "static/js/main.35368959.chunk.js"
+  ]
+}
