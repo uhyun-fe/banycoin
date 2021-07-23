@@ -18,7 +18,7 @@ const Game = ({ pickaxe, setPickaxe }) => {
    };
 
    useEffect(() => {
-      if (!words.filter((item) => item).length) setWords(data.words[parseInt(Math.random() * 10)]);
+      if (words && !words.filter((item) => item).length) setWords(data.words[parseInt(Math.random() * 10)]);
    }, [words]);
 
    return (
