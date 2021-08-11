@@ -5,28 +5,15 @@ const CoinLogic = () => {
 
    // 매직넘버 생성
    const makeNewMagicNumber = () => {
-      let magicNumberList = [];
-      for (let i = 0; i < 3; i++) {
-         magicNumberList.push(parseInt(Math.random() * 10));
-      }
-      return magicNumberList;
+      return [...Array(3)].map((n) => parseInt(Math.random() * 10));
    };
 
    const isTen = ({ list }) => {
-      let result = 0;
-      list.forEach((item) => {
-         result += item;
-      });
-      return result === 10;
+      return list.reduce((a, c) => a + c, 0) === 10;
    };
 
    const isLucky = ({ list }) => {
-      let result = 0;
-      list.forEach((item) => {
-         if (item !== 7) return;
-         result++;
-      });
-      return result === 3;
+      return list.filter((n) => n === 7).length === list.length;
    };
 
    const setMagicNumberList = ({ setIsSuccess, banycoin, setBanycoin, pickaxe, setPickaxe }) => {
